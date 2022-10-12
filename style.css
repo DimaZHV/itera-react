@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.forma{
+    width: 50%;
+   margin: 50px auto;
+}
+.forma fieldset{
+display: flex;
+flex-direction: column;
+margin: 0px auto;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+#myButton{
+    display: flex;
+    margin: 20px auto 0px;
+    justify-content: center;
+}
+.hide{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    display: none;
+    margin: -280px 25%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+    padding-right: 30px;
+}
+.text{
+    width: 500px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+}
